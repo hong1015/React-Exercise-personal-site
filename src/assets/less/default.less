@@ -1,0 +1,57 @@
+﻿@import './mixing.less';
+
+h1, h2, h3, h4 {
+    .volk();
+}
+
+body {
+    background: @black;
+    color: @g;
+    font-size: 16px;
+}
+
+nav {
+    .container {
+        width: 50%;
+        ul {
+            align-items: center;
+            display: flex;
+            font-size: 1.5em;
+            justify-content: space-between;
+            text-transform: capitalize;
+            li {
+                a {
+                    color: @white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.homeBody {
+    margin: 5em 0;
+    text-align: center;
+    h1 {
+        color: @b;
+        font-size: 4em;
+        text-transform: capitalize;
+    }
+    h3{
+        font-size: 3em;
+    }
+    h4{
+        font-size: 2em;
+    }
+}
+
+footer {
+    background: @white;
+    height: 5em;
+}
